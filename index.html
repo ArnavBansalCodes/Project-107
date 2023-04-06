@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="col-xs-12 header_div">
+            <h2>Sound Controlled Animals</h2>
+            <p>Note: Play different sounds like barking, meowing, roaring, and mooing</p>
+        </div>
+        <div id="main_div">
+            <center>
+                <button onclick="Start()" class="btn">Start</button>
+                <h4 id="#_Of_Times_Audio_Detected"></h4>
+                <h3 id="name_of_audio_played"></h3>
+                <br>
+                <img id="img_of_animal" src="DefaultImgEar.png">
+            </center>
+        </div>
+        <div class="copy_right_footer">Developed by Arnav Bansal</div>
+    </body>
+</html>
